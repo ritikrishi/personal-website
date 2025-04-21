@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC" />
+      <stop offset="100%" stop-color="#00CED1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  <circle cx="150" cy="120" r="60" fill="#F5F5F5" />
+  <circle cx="150" cy="350" r="130" fill="#F5F5F5" />
+  <text x="150" y="160" font-family="Poppins, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2A2A2A">R</text>
+</svg>

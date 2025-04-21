@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ritik - Professional Resume</title>
+        <meta
+            name="description"
+            content="Professional resume website for Ritik, showcasing skills, experience, and projects"
+        />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/testimonials.css" />
+        <link rel="stylesheet" href="css/animations.css" />
+    </head>
+    <body class="light-mode">
+        <!-- Theme Toggle -->
+        <div class="theme-toggle">
+            <button id="themeToggle" aria-label="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#hero">R</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li>
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div id="particles-js"></div>
+            <div class="scroll-progress-container">
+                <div class="scroll-progress-bar"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-image-container">
+                        <div class="hexagon-wrapper">
+                            <div class="hexagon">
+                                <svg width="0" height="0">
+                                    <defs>
+                                        <clipPath id="hexagon-clip">
+                                            <polygon
+                                                points="50,0 93.3,25 93.3,75 50,100 6.7,75 6.7,25"
+                                            ></polygon>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div
+                                    class="profile-image"
+                                    style="
+                                        background-image: url(&quot;assets/profile-placeholder.svg&quot;);
+                                    "
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1>Ritik</h1>
+                        <p class="subtitle">
+                            Data Analyst & Business Professional
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary"
+                                >Contact Me</a
+                            >
+                            <a href="#projects" class="btn btn-secondary"
+                                >View Projects</a
+                            >
+                            <a
+                                href="assets/cv-ritik.pdf"
+                                class="btn btn-accent"
+                                download
+                                ><i class="fas fa-download"></i> Download CV</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-background">
+                    <svg class="grid-pattern" aria-hidden="true">
+                        <use href="assets/grid-pattern.svg#grid"></use>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a data-driven business professional with
+                            experience in strategy, operations, and analytics.
+                            With a background in commerce and a passion for
+                            technology, I leverage data to drive business
+                            decisions and solve complex problems.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:iritikrishi@gmail.com"
+                                    >iritikrishi@gmail.com</a
+                                >
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+918789986569">+91 8789986569</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span
+                                    >No 31-A.R Palace, S.P Path, North S.K Puri,
+                                    Patna, Bihar - 800013</span
+                                >
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <a
+                                    href="https://www.linkedin.com"
+                                    target="_blank"
+                                    >LinkedIn</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-title">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-title">Certificates</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-title">Skills</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <h3>Strategy Intern</h3>
+                                <h4>PhysicsWallah</h4>
+                                <p class="timeline-date">Feb 2023 – May 2023</p>
+                                <ul class="experience-list">
+                                    <li>
+                                        Conducted market research through
+                                        strategic interaction for two major M&A
+                                        decision.
+                                    </li>
+                                    <li>
+                                        Assessed PW employees (counsellors and
+                                        doubt faculty) at work being undercover.
+                                    </li>
+                                    <li>
+                                        Data cleaning and analysis on google
+                                        sheets.
+                                    </li>
+                                    <li>
+                                        Research, analysis and reporting on the
+                                        functioning strategy of over 20+
+                                        companies, competitors and potential
+                                        rising players for effective business
+                                        strategy and new initiatives.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <h3>Summer Intern</h3>
+                                <h4>Gulmohar Maitri (NGO)</h4>
+                                <p class="timeline-date">
+                                    May 2022 – June 2022
+                                </p>
+                                <ul class="experience-list">
+                                    <li>
+                                        Daily operations, bookkeeping and data
+                                        entry.
+                                    </li>
+                                    <li>
+                                        Demographic and geographic research to
+                                        widen the scope of social impact.
+                                    </li>
+                                    <li>
+                                        Promotion and marketing through
+                                        correspondence, meet-ups and followups
+                                        with dignitaries.
+                                    </li>
+                                    <li>
+                                        Executed and managed an event and a
+                                        3-day campaign maintaining coordination
+                                        with partners and associates like Ruban
+                                        Memorial Hospital, Asian City Hospital
+                                        and NCC Cadets.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <h3>Operations Manager</h3>
+                                <h4>MYCAM Studios</h4>
+                                <p class="timeline-date">
+                                    Oct 2021 – April 2022
+                                </p>
+                                <ul class="experience-list">
+                                    <li>
+                                        Responsible for efficiently managing and
+                                        preparing the team for shoots with
+                                        detailed plans and workflows, as well as
+                                        developing alternative plans when
+                                        necessary.
+                                    </li>
+                                    <li>
+                                        Evaluating strategies & decision making
+                                        for client processing.
+                                    </li>
+                                    <li>
+                                        Successfully converted 6 leads, each
+                                        with a value ranging between INR 50,000
+                                        to 90,000.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-cards">
+                    <div class="card education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>B.Com (Professional)</h3>
+                            <h4>
+                                St. Xavier's College of Management & Technology
+                            </h4>
+                            <p>2023</p>
+                            <p class="highlight">8.42 CGPA</p>
+                        </div>
+                    </div>
+
+                    <div class="card education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Class XII, CBSE</h3>
+                            <h4>Holy Mission Sr. Sec. School</h4>
+                            <p>2019</p>
+                            <p class="highlight">71.83%</p>
+                        </div>
+                    </div>
+
+                    <div class="card education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Class X, CBSE</h3>
+                            <h4>Radiant International School</h4>
+                            <p>2017</p>
+                            <p class="highlight">9.2 CGPA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Certifications</h2>
+                <div class="skills-filter">
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+                    <button class="filter-btn" data-filter="technical">
+                        Technical
+                    </button>
+                    <button class="filter-btn" data-filter="professional">
+                        Professional
+                    </button>
+                    <button class="filter-btn" data-filter="design">
+                        Design
+                    </button>
+                </div>
+                <div class="two-column-grid">
+                    <div class="skills-container">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item" data-category="technical">
+                                <div class="skill-icon">
+                                    <i class="fas fa-file-excel"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>MS Office</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 90%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-category="technical">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>SQL</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 85%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-category="technical">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>R Programming</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 80%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-category="technical">
+                                <div class="skill-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Tableau</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 75%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-category="design">
+                                <div class="skill-icon">
+                                    <i class="fas fa-film"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Adobe Premiere Pro</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 80%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-category="design">
+                                <div class="skill-icon">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Adobe Lightroom</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 85%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="skill-item"
+                                data-category="professional"
+                            >
+                                <div class="skill-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Project Management</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 75%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="skill-item"
+                                data-category="professional"
+                            >
+                                <div class="skill-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Negotiation</h4>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress"
+                                            style="width: 80%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certifications-container">
+                        <h3>Certifications</h3>
+                        <div class="certifications-list">
+                            <div class="certification-item">
+                                <div class="certification-icon">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                                <div class="certification-details">
+                                    <h4>
+                                        Google Data Analytics Professional
+                                        Certificate
+                                    </h4>
+                                    <p>Coursera</p>
+                                </div>
+                            </div>
+                            <div class="certification-item">
+                                <div class="certification-icon">
+                                    <i class="fas fa-analytics"></i>
+                                </div>
+                                <div class="certification-details">
+                                    <h4>
+                                        Business Analytics For Management
+                                        Decision
+                                    </h4>
+                                    <p>
+                                        NPTEL - Score: 91% with Elite+Gold
+                                        Certificate
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="certification-item">
+                                <div class="certification-icon">
+                                    <i class="fas fa-table"></i>
+                                </div>
+                                <div class="certification-details">
+                                    <h4>
+                                        Microsoft Excel - Excel from Beginner to
+                                        Advanced
+                                    </h4>
+                                    <p>Udemy</p>
+                                </div>
+                            </div>
+                            <div class="certification-item">
+                                <div class="certification-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="certification-details">
+                                    <h4>
+                                        Exploring Sustainable Living and Loving
+                                        with Mogli
+                                    </h4>
+                                    <p>Tommy Hilfiger</p>
+                                </div>
+                            </div>
+                            <div class="certification-item">
+                                <div class="certification-icon">
+                                    <i class="fas fa-bullhorn"></i>
+                                </div>
+                                <div class="certification-details">
+                                    <h4>Fundamentals of Digital Marketing</h4>
+                                    <p>Google Digital Garage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll fade-in">
+                    Projects
+                </h2>
+
+                <div class="tech-stack-container">
+                    <div class="tech-icon animate" style="--animation-order: 1">
+                        <i class="fab fa-r-project"></i>
+                    </div>
+                    <div class="tech-icon animate" style="--animation-order: 2">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="tech-icon animate" style="--animation-order: 3">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="tech-icon animate" style="--animation-order: 4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="tech-icon animate" style="--animation-order: 5">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="tech-icon animate" style="--animation-order: 6">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-virus"></i>
+                            </div>
+                            <h3>COVID-19 Data Analysis</h3>
+                            <p>
+                                Conducted COVID-19 data analysis using R,
+                                leveraging statistical techniques to uncover
+                                insights. Reported findings using R Markdown.
+
+<div class="skills-chart-container">
+    <canvas id="skillsChart"></canvas>
+</div>
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">R</span>
+                                <span class="tech-tag">Data Analysis</span>
+                                <span class="tech-tag"
+                                    >Statistical Methods</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>National Education Policy Study</h3>
+                            <p>
+                                A study on Prospects & Challenges of National
+                                Education Policy - 2020 in Bihar. In partial
+                                fulfilment of the requirement of semester VI of
+                                B.Com(Professional).
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Research</span>
+                                <span class="tech-tag">Policy Analysis</span>
+                                <span class="tech-tag">Education</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <h2 class="section-title">Recognitions & Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>PW Learner of the week - Rank 1</h3>
+                            <p>PhysicsWallah</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Interdepartmental Football Tournament</h3>
+                            <p>First Place</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Essay Writing Competition</h3>
+                            <p>St. Ignatius of Loyola - Third Place</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Gaming Competition</h3>
+                            <p>Xavier's Youth Fest - XEST - Second Place</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Diya Making Competition</h3>
+                            <p>"Tamso Maa Jyotirgamay" - First Place</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Best out of Waste</h3>
+                            <p>Santa Claus Making - First Place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">What People Say</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-track">
+                            <div class="testimonial-slide active">
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text">
+                                        Ritik consistently delivered
+                                        high-quality analysis and strategic
+                                        insights during his internship. His
+                                        ability to gather and interpret data
+                                        contributed significantly to our M&A
+                                        decisions.
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img
+                                                src="assets/profile-placeholder.svg"
+                                                alt="Team Lead"
+                                            />
+                                        </div>
+                                        <h4 class="author-name">
+                                            Rahul Sharma
+                                        </h4>
+                                        <p class="author-position">
+                                            Team Lead at PhysicsWallah
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text">
+                                        Working with Ritik was a pleasure. His
+                                        analytical skills and attention to
+                                        detail helped us identify key growth
+                                        opportunities. He's a dedicated
+                                        professional with excellent
+                                        communication skills.
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img
+                                                src="assets/profile-placeholder.svg"
+                                                alt="NGO Director"
+                                            />
+                                        </div>
+                                        <h4 class="author-name">Priya Mehta</h4>
+                                        <p class="author-position">
+                                            Director at Gulmohar Maitri
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content">
+                                    <p class="testimonial-text">
+                                        Ritik's operations management skills
+                                        were exceptional. He optimized our
+                                        production workflow and helped secure
+                                        new clients, directly impacting our
+                                        bottom line in a positive way.
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-image">
+                                            <img
+                                                src="assets/profile-placeholder.svg"
+                                                alt="CEO"
+                                            />
+                                        </div>
+                                        <h4 class="author-name">
+                                            Vikram Singh
+                                        </h4>
+                                        <p class="author-position">
+                                            CEO at MYCAM Studios
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-arrows">
+                        <div class="testimonial-arrow testimonial-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="testimonial-arrow testimonial-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <div class="testimonial-dots">
+                            <div
+                                class="testimonial-dot active"
+                                data-index="0"
+                            ></div>
+                            <div class="testimonial-dot" data-index="1"></div>
+                            <div class="testimonial-dot" data-index="2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section">
+            <div class="container">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <h3>Learning Ukulele</h3>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <h3>Illustration</h3>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-skating"></i>
+                        </div>
+                        <h3>Skating</h3>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>CGI Games</h3>
+                    </div>
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-om"></i>
+                        </div>
+                        <h3>Yoga</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info-container">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h3>Email</h3>
+                                <a href="mailto:iritikrishi@gmail.com"
+                                    >iritikrishi@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h3>Phone</h3>
+                                <a href="tel:+918789986569">+91 8789986569</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h3>LinkedIn</h3>
+                                <a
+                                    href="https://www.linkedin.com"
+                                    target="_blank"
+                                    >Connect on LinkedIn</a
+                                >
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h3>Location</h3>
+                                <p>
+                                    No 31-A.R Palace, S.P Path, North S.K Puri,
+                                    Patna, Bihar - 800013
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Ritik</h3>
+                        <p>Data Analyst & Business Professional</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#education">Education</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com" target="_blank"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="mailto:iritikrishi@gmail.com"
+                            ><i class="fas fa-envelope"></i
+                        ></a>
+                        <a href="tel:+918789986569"
+                            ><i class="fas fa-phone"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Ritik. All Rights Reserved.</p>
+                    <p>Designed with <i class="fas fa-heart"></i> by Ritik</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top bounce-animation">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Particles.js -->
+        <script src="assets/js/particles.min.js"></script>
+
+        <!-- Custom JS -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
